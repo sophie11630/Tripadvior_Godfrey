@@ -1,6 +1,6 @@
 ### BUS256: Marketing Analytics
 ### Final Project (Part I): Tripadvior_Godfrey_Scraper
-I scrapes some data from one hotel -- The Godfrey Hotel Boston on Tripadvisor and do a sentimental analysis to predict ratings by using customers' reviews. 
+I scrapes some data from one hotel -- The Godfrey Hotel Boston on Tripadvisor and do a sentiment analysis to predict ratings by using customers' reviews. 
 ### Content
 #### i. Data scraping
 I used Python to scrape reviews data, and the finished dataset contains 3500 rows and the below 11 columns: 
@@ -28,4 +28,4 @@ reviewer_contributions: total reviewers th reviewer provided.
 reviewer_helpful_vote: number of helpful votes the reviewer got for providing reviews.
 
 #### ii. sentimental analysis
-I used sentimental anlysis and machine learning techniques to predict customers' ratings by using their reviews. 
+I used sentiment anlysis and machine learning techniques to predict customers' ratings by using their reviews. 
