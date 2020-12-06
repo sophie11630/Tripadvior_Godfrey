@@ -1,0 +1,1 @@
+# Tripadvior_Godfrey_Scraper
