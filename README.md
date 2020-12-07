@@ -1,5 +1,5 @@
 ### BUS256: Marketing Analytics
-### Final Project (Part I): Tripadvior_Godfrey_Scraper
+### Final Project (Part I): Tripadvior_Godfrey
 I scrapes some data from one hotel -- The Godfrey Hotel Boston on Tripadvisor and do a sentiment analysis to predict ratings by using customers' reviews. 
 ### Content
 #### i. Data scraping
