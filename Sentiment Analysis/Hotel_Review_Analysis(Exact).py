@@ -233,7 +233,7 @@ better_ratio = list(ent_gini_choice_list[:,1])
 better_index = better_ratio.index(max(better_ratio))
 ent_or_gini  = criterion_chosen[better_index]
 best_depth   = int(list(ent_gini_choice_list[:,0])[better_index])
-print("The depth that gives give the best right-to-total ratio is: ", ent_or_gini, ", ", best_depth)
+print("The depth that gives the best right-to-total ratio is: ", ent_or_gini, ", ", best_depth)
     
     
 #use test data to construct conf_matrix
@@ -300,7 +300,7 @@ print(k_dict_knn)
 ratio_list_knn = list(k_dict_knn.values())
 max_index_knn = ratio_list_knn.index(max(ratio_list_knn))
 best_k = list(k_dict_knn.keys())[max_index_knn]
-print("The k that gives give the best right-to-total ratio is: ", best_k)
+print("The k that gives the best right-to-total ratio is: ", best_k)
 
 #use test data to construct conf_matrix
 
@@ -363,6 +363,6 @@ max_rrt = max(right_to_total_dict.values())
 
 print("From the results above, ", end = "") 
 print(*best_mod, sep = ", ", end=" ")
-print("give(s) us the best prediction, and the right-to-total ratio for them is {}.".format(max_rrt))
+print("give(s) us the best prediction, and the right-to-total ratio is {}.".format(max_rrt))
 
 
